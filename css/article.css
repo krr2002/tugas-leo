@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 800px;
+}
+
+.article-card {
+    background-color: white;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+.article-card h5 {
+    margin-bottom: 10px;
+}
+
+.article-card p {
+    margin-bottom: 0;
+}

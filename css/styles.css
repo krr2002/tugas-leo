@@ -1,0 +1,115 @@
+/* Variabel warna */
+:root {
+    --primary-blue: #1a75ff;
+    --secondary-blue: #004de6;
+    --light-blue: #e6f0ff;
+    --dark-blue: #003399;
+}
+
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--light-blue);
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: var(--dark-blue) !important;
+    padding: 1rem 0;
+}
+
+.navbar-brand {
+    color: white !important;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    color: white !important;
+    margin-left: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: var(--light-blue) !important;
+}
+
+/* Container styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.mt-4 {
+    margin-top: 2rem;
+}
+
+/* Alert styles */
+.alert {
+    padding: 1rem;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+.alert-success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+.alert-warning {
+    background-color: #fff3cd;
+    color: #856404;
+    border: 1px solid #ffeeba;
+}
+
+.alert-info {
+    background-color: #d1ecf1;
+    color: #0c5460;
+    border: 1px solid #bee5eb;
+}
+
+/* Responsive navbar */
+@media (max-width: 991px) {
+    .navbar-nav {
+        margin-top: 1rem;
+    }
+    
+    .nav-link {
+        margin-left: 0;
+        margin-bottom: 0.5rem;
+    }
+}
+
+/* Additional utility classes */
+.bg-dark {
+    background-color: var(--dark-blue) !important;
+}
+
+.navbar-dark {
+    color: white;
+}
+
+.navbar-expand-lg {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
